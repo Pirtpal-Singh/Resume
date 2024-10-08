@@ -1,0 +1,56 @@
+html {
+  background-image: linear-gradient(blue, lightblue);
+}
+/* gradient allows for a gradient as a background instead of a solid color or picture, you can choose wht colors you want to make the gradient  */
+body {
+  background-color: white;
+  width: 900px;
+  padding: 20px;
+  margin: 20px auto;
+  font-family: "Bona Nova SC", serif;
+}
+
+th,
+td {
+  border: 5px groove darkblue;
+  padding: 5px 10px;
+  background-color: cyan;
+  border-collapse: collapse;
+}
+
+#info {
+  text-align: center;
+}
+button:hover {
+  transition: background 2s;
+  background-color: blue;
+  color: white;
+}
+
+.header {
+  text-align: center;
+  border-style: double;
+  border-width: 5px;
+  background-color: lightblue;
+  border-radius: 25px;
+  width: 350px;
+  margin: 25px auto;
+}
+
+span {
+  font-style: italic;
+}
+
+img {
+  float: left;
+  height: 170px;
+  width: 120px;
+}
+
+h1 {
+  margin-bottom: 5000px;
+}
+
+#ref {
+  text-align: center;
+}
